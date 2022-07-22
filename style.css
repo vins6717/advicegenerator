@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 10px;
+}
+
+body {
+  font-family: "karla", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #202632;
+  height: 100vh;
+}
+
+.advice-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  height: 50vh;
+  width: 650px;
+}
+
+.advice-card h2 {
+  color: #ab98df;
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.advice-text {
+  color: rgb(32, 38, 50);
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+#advice-button {
+  background-color: #a54df0;
+  border: 1px solid #a54df0;
+  border-radius: 5px;
+  padding: 15px 10px;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 25%;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
